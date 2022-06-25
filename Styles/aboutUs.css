@@ -5,6 +5,7 @@
 // TODO 3: Make the "Explore Posts" and "Explore Pictures" & repeat TODO 2 above
 TODO 4: Check Django documentation on integration with html/css
 ? TODO 5: Make the navigation sticky {Should it be stuck to the top during scrolling?}
+!TODO 5: Check Pull requests for font recommendations, etc
 */
 
 body {
@@ -73,9 +74,7 @@ header li {
     align-items: center;
     text-align: center;
 
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .first {
@@ -107,8 +106,6 @@ header h1 {
     letter-spacing: 0.69em;
 
     color: #FFFFFF;
-
-
 }
 
 header p {
@@ -166,21 +163,6 @@ button {
     align-items: center;
 
     color: #FFFFFF;
-
-
-
-    /* Arrow 2
-
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 1px;
-    height: 0px;
-    left: 837px;
-    top: 748px;
-
-    border: 2.7px solid #FFFFFF; */
-
 }
 
 #pics {
@@ -209,4 +191,16 @@ color: #FFFFFF;
 .arrow2 {
     padding-left: 6px;
     font-weight: bold;
+
+    /* Arrow 2
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    left: 837px;
+    top: 748px;
+
+    border: 2.7px solid #FFFFFF; */
 }
