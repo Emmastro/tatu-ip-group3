@@ -15,7 +15,7 @@ python3 -m pip install --user virtualenv
 Clone the repository:
 
 ```bash
-!!! git clone git@github.com:Faith-qa/uberpool.git
+git clone https://github.com/Emmastro/tatu-ip-group3.git
 ```
 
 Cd on the root folder of the project
