@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../Styles/aboutUs.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'home/CSS/aboutUs.css' %}">
     <title>TATU</title>
+    <!---
+    @Emmanuel: set your files on the home app, in the templates directory. Also, you can check the django documentations to get the statics (CSS, images, etc.) to work from the django setup-->
 </head>
 <body>
     <header>
@@ -14,18 +17,18 @@
 
         <!--The icon-->
         <div id="group1">
-            <img id="icon" src="../Assets/Icon.png" alt="our group's icon">
+            <img id="icon" src="{% static 'home/images/Icon.png' %}" alt="our group's icon">
 
             <ul class="list-group list-group-horizontal">
                 <li id="active" class="first"><a>about</a></li>
-                <li><a href="#">posts</a></li>
-                <li><a href="#">team</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="posts.html">posts</a></li>
+                <li><a href="team.html">team</a></li>
+                <li><a href="contact.html">contact</a></li>
             </ul>
         </div>
 
 
-        
+
         <div class="text-center">
             <h1>ABOUT US</h1>
 
