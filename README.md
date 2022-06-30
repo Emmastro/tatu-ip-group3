@@ -47,11 +47,6 @@ Install the django environ module using the following command:
  pip install django-environ
 ```
 
-Run the following command as well:
-```bash
-pip freeze >> requirements.txt
-```
-
 Apply migrations using the following command:
 ```bash
  python manage.py migrate
