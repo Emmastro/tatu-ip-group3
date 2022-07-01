@@ -16,12 +16,12 @@
         <!--The icon-->
         <div id="group1">
             <img id="icon" src="{% static 'home/images/Icon.png' %}" alt="our group's icon">
-
+            <!--Navigation is not working at the moment-->
             <ul class="list-group list-group-horizontal">
-                <li id="active" class="first"><a>about</a></li>
-                <li><a href="posts.html">posts</a></li>
-                <li><a href="team.html">team</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li class="first"><a href="{% url 'aboutUs' %}">about</a></li>
+                <li><a href="{% url 'posts' %}">posts</a></li>
+                <li><a href="{% url 'team' %}">team</a></li>
+                <li><a href="{% url 'contact' %}">contact</a></li>
             </ul>
         </div>
 

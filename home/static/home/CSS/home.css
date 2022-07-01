@@ -1,5 +1,6 @@
 /* Home.html template's stylesheet */
-/* ! TODO: Make the #links background as well as the text visible 
+/* TODO: Make the #links background as well as the text visible
+! TODO: Sort out navigation from home to aboutUs.html, etc in django.
 */
 
 body {
@@ -36,19 +37,19 @@ header {
 
 
 /*navigation styling*/
-header li a {
+header #group1 li a {
     float: left;
     color: white;
 }
 
-header li a:hover {
+header #group1 li a:hover {
     float: left;
     color: white;
     text-decoration: none;
 }
 
 
-header li {
+header #group1 li {
     list-style-type: none;
     padding: 20px 150px;
     /* about */
@@ -263,21 +264,21 @@ header p {
     color: #FFFFFF;
 }
 
+/* ! Bottom button needs to be looked at */
 /* Rectangle 2 */
-ul #links {
+.links > ul {
     position: absolute;
     width: 1487px;
     height: 180px;
     left: 229px;
-    top: 560px;
+    top: 560px; 
 
     background-color: #808080;
     opacity: 0.17;
-    border-radius: 111px;
+    border-radius: 111px solid;
 }
 
 /* posts */
-
 #posts {
     position: absolute;
     width: 202px;

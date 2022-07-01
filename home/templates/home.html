@@ -16,12 +16,12 @@
         <!--The icon-->
         <div id="group1">
             <img id="icon" src="{% static 'home/images/Icon.png' %}" alt="our group's icon">
-
+            <!--Navigation is not working at the moment-->
             <ul class="list-group list-group-horizontal">
-                <li class="first"><a href="aboutUs.html">about</a></li>
-                <li><a href="posts.html">posts</a></li>
-                <li><a href="team.html">team</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li class="first"><a href="{% url 'aboutUs' %}">about</a></li>
+                <li><a href="{% url 'posts' %}">posts</a></li>
+                <li><a href="{% url 'team' %}">team</a></li>
+                <li><a href="{% url 'contact' %}">contact</a></li>
             </ul>
         </div>
 
@@ -36,15 +36,20 @@
                 <span id="trois">trois</span></h1>
 
             <h1 id="title">INTEGRATED PROJECT</h1>
-
-            <ul id="links">
-                <li id="posts"><a>Posts</a></li>
-                <li id="reports"><a>Reports</a></li>
-                <li id="pics"><a>pictures</a></li>
-            </ul>
+                <!---
+                    1. Link destination to be looked at in future
+                    2. Formatting of this section (CSS) needs review
+                -->
+            <div class="links">
+                <ul>
+                    <li id="posts"><a href="{% url 'posts' %}">Posts</a></li>
+                    <li id="reports"><a href="{% url 'posts' %}">Reports</a></li>
+                    <li id="pics"><a href="{% url 'team' %}">pictures</a></li>
+                </ul>
+            </div>
 
 </div>
-        <!---Buttons for explore posts and explore pictures-->
+      
     </header>
 
 
