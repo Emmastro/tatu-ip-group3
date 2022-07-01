@@ -42,16 +42,10 @@ make install
 ```
 With all dependencies installed, you can check other quick make commands from the Makefile.
 
-Install the django environ module using the following command:
-```bash
- pip install django-environ
-```
-
 Apply migrations using the following command:
 ```bash
  python manage.py migrate
 ```
-
 
 To run the django server, use the command:
 ```bash
@@ -64,6 +58,9 @@ You can the go to your browser and type: http://127.0.0.1:8000/
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
+
+## Contributors
+
 
 ## License
 
