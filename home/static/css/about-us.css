@@ -1,0 +1,206 @@
+/*
+// TODO 1: Make the nav inline
+// TODO 2: Match the colors, sizes and fonts of text and icons from figma
+// ?Hover effect on lists
+// TODO 3: Make the "Explore Posts" and "Explore Pictures" & repeat TODO 2 above
+TODO 4: Check Django documentation on integration with html/css
+? TODO 5: Make the navigation sticky {Should it be stuck to the top during scrolling?}
+!TODO 5: Check Pull requests for font recommendations, etc
+*/
+
+body {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+/*header styling*/
+header {
+    padding: 40px;
+}
+
+#group1 {
+    /* Group 1 */
+
+    position: absolute;
+    width: 214px;
+    height: 88px;
+    left: 15px;
+    top: 26px;
+    display: flex;
+    flex-direction: row;
+}
+
+#icon {
+    width: 150px;
+    height: 50px;
+    left: 474px;
+    top: 20px;
+}
+
+
+/*navigation styling*/
+header li a {
+    float: left;
+    color: white;
+}
+
+header li a:hover {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+
+header li {
+    list-style-type: none;
+    padding: 20px 150px;
+    /* about */
+
+    /* position: absolute; */
+    width: 77px;
+    height: 23px;
+    left: 474px;
+    top: 46px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first {
+    padding-left: 300px;
+}
+
+#active {
+    color: green;
+}
+
+header h1 {
+
+    /* ABOUT US */
+
+    position: absolute;
+    width: 1000px;
+    height: 70px;
+    left: 600px;
+    top: 200px;
+
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.69em;
+
+    color: #FFFFFF;
+}
+
+header p {
+
+    /* We are group three; sharing our stories from across the world over the summer of 2022 as our intergrated project */
+
+    position: absolute;
+    width: 1722px;
+    height: 299px;
+    left: 50px;
+    top: 344px;
+
+    padding-top: 75px;
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 77px;
+    line-height: 99px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+}
+
+button {
+    background-color: #327CDE;
+    border-radius: 33px;
+    color: #FFFFFF;
+    width: 305px;
+    height: 69px;
+    left: 563px;
+    top: 712px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+#posts {
+    /* Explore Posts */
+
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    left: 350px;
+    top: 722px;
+
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 59px;
+    /* or 151% */
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+#pics {
+/* Explore Pictures */
+
+position: absolute;
+width: 355px;
+height: 50px;
+left: 1063px;
+top: 722px;
+
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 59px;
+/* or 151% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+
+ /* Arrow 2 */
+.arrow2 {
+    padding-left: 6px;
+    font-weight: bold;
+
+    /* Arrow 2
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    left: 837px;
+    top: 748px;
+
+    border: 2.7px solid #FFFFFF; */
+}

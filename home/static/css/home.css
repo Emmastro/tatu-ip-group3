@@ -1,0 +1,341 @@
+/* Home.html template's stylesheet */
+/* TODO: Make the #links background as well as the text visible
+! TODO: Sort out navigation from home to aboutUs.html, etc in django.
+*/
+
+body {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+/*header styling*/
+header {
+    padding: 40px;
+}
+
+#group1 {
+    /* Group 1 */
+
+    position: absolute;
+    width: 214px;
+    height: 88px;
+    left: 15px;
+    top: 26px;
+    display: flex;
+    flex-direction: row;
+}
+
+#icon {
+    width: 150px;
+    height: 50px;
+    left: 474px;
+    top: 20px;
+}
+
+
+/*navigation styling*/
+header #group1 li a {
+    float: left;
+    color: white;
+}
+
+header #group1 li a:hover {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+
+header #group1 li {
+    list-style-type: none;
+    padding: 20px 150px;
+    /* about */
+
+    /* position: absolute; */
+    width: 77px;
+    height: 23px;
+    left: 474px;
+    top: 46px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first {
+    padding-left: 300px;
+}
+
+#active {
+    color: green;
+}
+
+header h1 {
+
+    /* ABOUT US */
+
+    position: absolute;
+    width: 1000px;
+    height: 70px;
+    left: 600px;
+    top: 200px;
+
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.69em;
+
+    color: #FFFFFF;
+}
+
+header p {
+
+    /* We are group three; sharing our stories from across the world over the summer of 2022 as our intergrated project */
+
+    position: absolute;
+    width: 1722px;
+    height: 299px;
+    left: 50px;
+    top: 344px;
+
+    padding-top: 75px;
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 77px;
+    line-height: 99px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+}
+
+/* Group 2 */
+#group2 {
+    position: absolute;
+    width: 1161px;
+    height: 159px;
+    left: 236px;
+    top: 0px;
+}
+
+/* three */
+#three {
+    position: absolute;
+    width: 374px;
+    height: 142px;
+    left: 36px;
+    top: 272px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 151px;
+    line-height: 194px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+
+    opacity: 0.19;
+}
+
+/* • */
+
+#firstDot {
+    position: absolute;
+    width: 44px;
+    height: 142px;
+    left: 525px;
+    top: 289px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+
+}
+
+/* tatu */
+#tatu {
+    position: absolute;
+    width: 336px;
+    height: 142px;
+    left: 575px;
+    top: 272px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 171px;
+    line-height: 220px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+
+}
+
+/* • */
+#secondDot {
+    position: absolute;
+    width: 44px;
+    height: 142px;
+    left: 975px;
+    top: 289px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 67px;
+    line-height: 86px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+}
+
+/* trois */
+
+#trois {
+    position: absolute;
+    width: 307px;
+    height: 142px;
+    left: 1025px;
+    top: 272px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 151px;
+    line-height: 194px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+
+    opacity: 0.19;
+}
+
+/* INTEGRATED PROJECT */
+#title {
+    position: absolute;
+    width: 1320px;
+    height: 70px;
+    left: 300px;
+    top: 446px;
+
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57px;
+    line-height: 68px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.69em;
+
+    color: #FFFFFF;
+}
+
+/* ! Bottom button needs to be looked at */
+/* Rectangle 2 */
+.links>ul {
+    position: absolute;
+    width: 1487px;
+    height: 180px;
+    left: 229px;
+    top: 560px;
+
+    background-color: #808080;
+    opacity: 0.17;
+    border-radius: 111px solid;
+}
+
+/* posts */
+#posts {
+    position: absolute;
+    width: 202px;
+    height: 70px;
+    left: 186px;
+    top: 608px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 77px;
+    line-height: 99px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+}
+
+/* reports */
+
+#reports {
+    position: absolute;
+    width: 262px;
+    height: 70px;
+    left: 710px;
+    top: 608px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 77px;
+    line-height: 99px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+}
+
+/* pictures */
+
+#pics {
+    position: absolute;
+    width: 291px;
+    height: 70px;
+    left: 1208px;
+    top: 608px;
+
+    font-family: 'F37 Ginger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 77px;
+    line-height: 99px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1DB954;
+}
