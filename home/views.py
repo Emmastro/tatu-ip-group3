@@ -7,7 +7,7 @@ def home(request):
     return render(request, 'home.html')
 
 def aboutUs(request):
-    return render(request, 'aboutUs.html')
+    return render(request, 'about_us.html')
 
 def posts(request):
     return render(request, 'posts.html')

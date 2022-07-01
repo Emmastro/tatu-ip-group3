@@ -1,58 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% load static %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="{% static 'home/CSS/home.css' %}">
-    <title>TATU</title>
-</head>
-<body>
-    <header>
-        <!---An icon, nav bar and some text: TODO: Integrate with all other pages-->
+{%include "base.html"%}
 
-        <!--The icon-->
-        <div id="group1">
-            <img id="icon" src="{% static 'home/images/Icon.png' %}" alt="our group's icon">
-            <!--Navigation is not working at the moment-->
-            <ul class="list-group list-group-horizontal">
-                <li class="first"><a href="{% url 'aboutUs' %}">about</a></li>
-                <li><a href="{% url 'posts' %}">posts</a></li>
-                <li><a href="{% url 'team' %}">team</a></li>
-                <li><a href="{% url 'contact' %}">contact</a></li>
-            </ul>
-        </div>
+{%block content%}
 
+<div class="text-center">
+  <h1 id="group2">
+    <span id="three">three</span>
+    <span id="firstDot">.</span>
+    <span id="tatu">tatu</span>
+    <span id="secondDot">.</span>
+    <span id="trois">trois</span>
+  </h1>
 
-
-        <div class="text-center">
-            <h1 id="group2">
-                <span id="three">three</span>
-                <span id="firstDot">.</span>
-                <span id="tatu">tatu</span>
-                <span id="secondDot">.</span>
-                <span id="trois">trois</span></h1>
-
-            <h1 id="title">INTEGRATED PROJECT</h1>
-                <!---
-                    1. Link destination to be looked at in future
-                    2. Formatting of this section (CSS) needs review
-                -->
-            <div class="links">
-                <ul>
-                    <li id="posts"><a href="{% url 'posts' %}">Posts</a></li>
-                    <li id="reports"><a href="{% url 'posts' %}">Reports</a></li>
-                    <li id="pics"><a href="{% url 'team' %}">pictures</a></li>
-                </ul>
-            </div>
-
+  <h1 id="title">INTEGRATED PROJECT</h1>
+  <!---
+            1. Link destination to be looked at in future
+            2. Formatting of this section (CSS) needs review
+        -->
 </div>
-      
-    </header>
 
-
-
-</body>
-</html>
+{%endblock%}

@@ -266,12 +266,12 @@ header p {
 
 /* ! Bottom button needs to be looked at */
 /* Rectangle 2 */
-.links > ul {
+.links>ul {
     position: absolute;
     width: 1487px;
     height: 180px;
     left: 229px;
-    top: 560px; 
+    top: 560px;
 
     background-color: #808080;
     opacity: 0.17;
