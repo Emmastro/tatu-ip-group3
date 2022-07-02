@@ -1,8 +1,14 @@
-# tatu-ip-group3
-Integrated project - African Leadership College
+<center> <h1>tatu-ip-group3 </h1></center>
 
 
-[Brief description of the application]
+## Integrated project - African Leadership College
+
+[Brief description of the application] <br>
+We are group 3 sharing our experiences over the Summer of 2022 as our Integrated Project for Trimester 1. 
+
+
+---
+
 
 ## Installation
 
