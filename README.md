@@ -4,7 +4,7 @@
 ## Integrated project - African Leadership College
 
 [Brief description of the application] <br>
-We are group 3 sharing our experiences over the Summer of 2022 as our Integrated Project for Trimester 1. 
+We are group 3 sharing our experiences over the Summer of 2022 as our Integrated Project for Trimester 3. 
 
 
 ---
