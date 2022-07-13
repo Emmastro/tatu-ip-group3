@@ -2,20 +2,48 @@
 
 {%block content%}
 
-<div class="text-center">
-  <h1 id="group2">
-    <span id="three">three</span>
-    <span id="firstDot">.</span>
-    <span id="tatu">tatu</span>
-    <span id="secondDot">.</span>
-    <span id="trois">trois</span>
-  </h1>
-
-  <h1 id="title">INTEGRATED PROJECT</h1>
-  <!---
-            1. Link destination to be looked at in future
-            2. Formatting of this section (CSS) needs review
-        -->
+<br><br><br>
+<h1 class="center">three . tatu . trois</h1>
+<h1 class="center-ip">INTEGRATED PROJECT 1</h1>
 </div>
+</div>
+</div>
+<br><br><br>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4 class="compony">tatu <br><hr></h4>
+                <ul>
+                    <li><a href="{% url 'home' %}">home</a></li>
+                    <li><a href="{% url 'about' %}">about</a></li>
+                    <li><a href="{% url 'posts' %}">posts</a></li>
+                    <li><a href="{% url 'authors' %}">authors</a></li>
+                    <li><a href="{% url 'contact' %}">contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>posts <br><hr></h4>
+                <ul>
+                    <li><a href="{% url 'background' %}">our background</a></li>
+                    <li><a href="{% url 'alu' %}">ALU experience</a></li>
+                    <li><a href="{% url 'mauritius' %}">mauritius experience</a></li>
+                    <li><a href="{% url 'social' %}">social life</a></li>
+                    <li><a href="{% url 'career' %}">future ideas and career</a></li>
+                    <li><a href="{% url 'pictures' %}">pictures zone</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us <br><hr></h4>
+                <div class="social-links">
+                    <a href="https://www.github.com/"><i class="fa fa-github"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 {%endblock%}

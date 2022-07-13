@@ -1,4 +1,4 @@
-# tatu-ip-group3
+# ip-3
 Integrated project - African Leadership College
 
 

@@ -1,0 +1,133 @@
+{%include "base.html"%}
+
+{%block content%}
+{% load static %}
+
+<div class="flex-row">
+    <div class="flex-item flex-column">
+        <h2 class="add-top-margin">Social Life</h2>
+        <hr>
+        <p class="text text-large">
+            This page highlights our social life in the form of pictures.
+        </p>
+        <br>
+        <img class="image center max-width-400 add-top-margin-small" src="{% static 'images/social.png' %}">
+        <br>
+    </div>
+</div>
+<div class="flex-row">
+    <div class="flex-item flex-column">
+        <p class="text badge-text">Sun Of A Beach</p>
+        <br>
+    </div>
+</div>
+<div class="gallery">
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+</div>
+<br>
+<div class="flex-row">
+    <div class="flex-item flex-column">
+        <p class="text badge-text">Art Expression</p>
+        <br>
+    </div>
+</div>
+<div class="gallery">
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+</div>
+<br>
+<div class="flex-row">
+    <div class="flex-item flex-column">
+        <p class="text badge-text">Kwibuka</p>
+        <br>
+    </div>
+</div>
+<div class="gallery">
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+</div>
+<br>
+<div class="flex-row">
+    <div class="flex-item flex-column">
+        <p class="text badge-text">Graduation</p>
+        <br>
+    </div>
+</div>
+<div class="gallery">
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+</div>
+<br>
+<div class="flex-row">
+    <div class="flex-item flex-column">
+        <p class="text badge-text">Mosaic</p>
+        <br>
+    </div>
+</div>
+<div class="gallery">
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+    <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+    </a>
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4 class="compony">tatu <br><hr></h4>
+                <ul>
+                    <li><a href="{% url 'home' %}">home</a></li>
+                    <li><a href="{% url 'about' %}">about</a></li>
+                    <li><a href="{% url 'posts' %}">posts</a></li>
+                    <li><a href="{% url 'authors' %}">authors</a></li>
+                    <li><a href="{% url 'contact' %}">contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>posts <br><hr></h4>
+                <ul>
+                    <li><a href="{% url 'background' %}">our background</a></li>
+                    <li><a href="{% url 'alu' %}">ALU experience</a></li>
+                    <li><a href="{% url 'mauritius' %}">mauritius experience</a></li>
+                    <li><a href="{% url 'social' %}">social life</a></li>
+                    <li><a href="{% url 'career' %}">future ideas and career</a></li>
+                    <li><a href="{% url 'pictures' %}">pictures zone</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us <br><hr></h4>
+                <div class="social-links">
+                    <a href="https://www.github.com/"><i class="fa fa-github"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+{%endblock%}
