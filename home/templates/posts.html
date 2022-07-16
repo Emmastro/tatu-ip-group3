@@ -1,1 +1,115 @@
-{%include "base.html"%}
+{%extends "base.html"%} {%block content%} {% load static %}
+
+<div class="flex-row">
+  <div class="flex-item flex-column full-width">
+    <h2 class="add-top-margin">List of Posts</h2>
+    <hr />
+  </div>
+</div>
+<div class="flex-row">
+  <div class="flex-item flex-item-stretch flex-column">
+    <a href="{% url 'background' %}">
+      <img
+        class="image max-width-400"
+        src="{% static 'images/background.png' %}"
+      />
+    </a>
+  </div>
+  <div class="flex-item flex-item-stretch-4 flex-column">
+    <p class="text text-large">
+      <a class="text badge-text" href="{% url 'background' %}">Our Background</a
+      ><br />
+      Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+      imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+      nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+      condimentum rhoncus, sem quam semper libero, sit amet.
+    </p>
+  </div>
+</div>
+<div class="flex-row">
+  <div class="flex-item flex-item-stretch flex-column">
+    <a href="{% url 'alu' %}">
+      <img class="image max-width-400" src="{% static 'images/alu.png' %}" />
+    </a>
+  </div>
+  <div class="flex-item flex-item-stretch-4 flex-column">
+    <p class="text text-large">
+      <a class="text badge-text" href="{% url 'alu' %}">ALU Experience</a><br />
+      Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+      imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+      nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+      condimentum rhoncus, sem quam semper libero, sit amet.
+    </p>
+  </div>
+</div>
+<div class="flex-row">
+  <div class="flex-item flex-item-stretch flex-column">
+    <a href="{% url 'mauritius' %}">
+      <img class="image max-width-400" src="{% static 'images/mu.png' %}" />
+    </a>
+  </div>
+  <div class="flex-item flex-item-stretch-4 flex-column">
+    <p class="text text-large">
+      <a class="text badge-text" href="{% url 'mauritius' %}"
+        >Mauritius Experience</a
+      ><br />
+      Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+      imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+      nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+      condimentum rhoncus, sem quam semper libero, sit amet.
+    </p>
+  </div>
+</div>
+<div class="flex-row">
+  <div class="flex-item flex-item-stretch flex-column">
+    <a href="{% url 'social' %}">
+      <img class="image max-width-400" src="{% static 'images/social.png' %}" />
+    </a>
+  </div>
+  <div class="flex-item flex-item-stretch-4 flex-column">
+    <p class="text text-large">
+      <a class="text badge-text" href="{% url 'social' %}">Social Life</a><br />
+      Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+      imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+      nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+      condimentum rhoncus, sem quam semper libero, sit amet.
+    </p>
+  </div>
+</div>
+<div class="flex-row">
+  <div class="flex-item flex-item-stretch flex-column">
+    <a href="{% url 'career' %}">
+      <img class="image max-width-400" src="{% static 'images/career.png' %}" />
+    </a>
+  </div>
+  <div class="flex-item flex-item-stretch-4 flex-column">
+    <p class="text text-large">
+      <a class="text badge-text" href="{% url 'career' %}"
+        >Future Ideas and Career</a
+      ><br />
+      Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+      imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+      nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+      condimentum rhoncus, sem quam semper libero, sit amet.
+    </p>
+  </div>
+</div>
+<div class="flex-row">
+  <div class="flex-item flex-item-stretch flex-column">
+    <a href="{% url 'pictures' %}">
+      <img class="image max-width-400" src="{% static 'images/zone.png' %}" />
+    </a>
+  </div>
+  <div class="flex-item flex-item-stretch-4 flex-column">
+    <p class="text text-large">
+      <a class="text badge-text" href="{% url 'pictures' %}">Pictures Zone</a
+      ><br />
+      Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+      imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+      nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+      condimentum rhoncus, sem quam semper libero, sit amet.
+    </p>
+  </div>
+</div>
+
+{%endblock%}

@@ -1,0 +1,41 @@
+{%extends "base.html"%} {%block content%} {% load static %}
+
+<div class="flex-row">
+  <div class="flex-item flex-column">
+    <h2 class="add-top-margin">Pictures Zone</h2>
+    <hr />
+    <p class="text text-large">
+      This page is an additional feature that contains a gallery of other
+      pictures related to Group Three.
+    </p>
+  </div>
+</div>
+<br />
+<div class="gallery">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
+  </a>
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
+  </a>
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
+  </a>
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
+  </a>
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
+  </a>
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
+  </a>
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
+  </a>
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
+  </a>
+</div>
+
+{%endblock%}
