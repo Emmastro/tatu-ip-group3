@@ -1,130 +1,92 @@
-{%include "base.html"%}
-
-{%block content%}
-{% load static %}
+{%extends "base.html"%} {%block content%} {% load static %}
 
 <div class="flex-row">
   <div class="flex-item flex-column">
-    <img class="image" src="{% static 'images/test.jpg' %}">
+    <img class="image" src="{% static 'images/test.jpg' %}" />
   </div>
   <div class="flex-item flex-column">
     <p class="text text-large">
-      <strong>Name:</strong> Christian Adeoye Adebambo<br>
-      <strong>Home Location:</strong> Nigeria<br>
-      <strong>Computing Interests:</strong> Data Science and Machine Learning<br>
-      <strong>Website Individual Contributions:</strong> Home, Posts<br>
+      <strong>Name:</strong> Christian Adeoye Adebambo<br />
+      <strong>Home Location:</strong> Nigeria<br />
+      <strong>Computing Interests:</strong> Data Science and Machine Learning<br />
+      <strong>Website Individual Contributions:</strong> Home, Posts<br />
     </p>
   </div>
 </div>
-<br>
+<br />
 <div class="flex-row">
   <div class="flex-item flex-column">
-    <img class="image" src="{% static 'images/test.jpg' %}">
+    <img class="image" src="{% static 'images/test.jpg' %}" />
   </div>
   <div class="flex-item flex-column">
     <p class="text text-large">
-      <strong>Name:</strong> Emmanuel Bauma Murairi<br>
-      <strong>Home Location:</strong> Congo<br>
-      <strong>Computing Interests:</strong> Phasellus viverra nulla<br>
-      <strong>Website Individual Contributions:</strong> Phasellus viverra nulla<br>
+      <strong>Name:</strong> Emmanuel Bauma Murairi<br />
+      <strong>Home Location:</strong> Congo<br />
+      <strong>Computing Interests:</strong> Phasellus viverra nulla<br />
+      <strong>Website Individual Contributions:</strong> Phasellus viverra
+      nulla<br />
     </p>
   </div>
 </div>
-<br>
+<br />
 <div class="flex-row">
   <div class="flex-item flex-column">
-    <img class="image" src="{% static 'images/test.jpg' %}">
+    <img class="image" src="{% static 'images/test.jpg' %}" />
   </div>
   <div class="flex-item flex-column">
     <p class="text text-large">
-      <strong>Name:</strong> Sumeiya Juma<br>
-      <strong>Home Location:</strong> Kenya<br>
-      <strong>Computing Interests:</strong> Phasellus viverra nulla<br>
-      <strong>Website Individual Contributions:</strong> Phasellus viverra nulla<br>
+      <strong>Name:</strong> Sumeiya Juma<br />
+      <strong>Home Location:</strong> Kenya<br />
+      <strong>Computing Interests:</strong> Phasellus viverra nulla<br />
+      <strong>Website Individual Contributions:</strong> Phasellus viverra
+      nulla<br />
     </p>
   </div>
 </div>
-<br>
+<br />
 <div class="flex-row">
   <div class="flex-item flex-column">
-    <img class="image" src="{% static 'images/test.jpg' %}">
+    <img class="image" src="{% static 'images/test.jpg' %}" />
   </div>
   <div class="flex-item flex-column">
     <p class="text text-large">
-      <strong>Name:</strong> Benson Mugure<br>
-      <strong>Home Location:</strong> Kenya<br>
-      <strong>Computing Interests:</strong> Phasellus viverra nulla<br>
-      <strong>Website Individual Contributions:</strong> Phasellus viverra nulla<br>
+      <strong>Name:</strong> Benson Mugure<br />
+      <strong>Home Location:</strong> Kenya<br />
+      <strong>Computing Interests:</strong> Phasellus viverra nulla<br />
+      <strong>Website Individual Contributions:</strong> Phasellus viverra
+      nulla<br />
     </p>
   </div>
 </div>
-<br>
+<br />
 <div class="flex-row">
   <div class="flex-item flex-column">
-    <img class="image" src="{% static 'images/test.jpg' %}">
+    <img class="image" src="{% static 'images/test.jpg' %}" />
   </div>
   <div class="flex-item flex-column">
     <p class="text text-large">
-      <strong>Name:</strong> Ian Omunga<br>
-      <strong>Home Location:</strong> Kenya<br>
-      <strong>Computing Interests:</strong> Phasellus viverra nulla<br>
-      <strong>Website Individual Contributions:</strong> Phasellus viverra nulla<br>
+      <strong>Name:</strong> Ian Omunga<br />
+      <strong>Home Location:</strong> Kenya<br />
+      <strong>Computing Interests:</strong> Phasellus viverra nulla<br />
+      <strong>Website Individual Contributions:</strong> Phasellus viverra
+      nulla<br />
     </p>
   </div>
 </div>
-<br>
+<br />
 <div class="flex-row">
   <div class="flex-item flex-column">
-    <img class="image" src="{% static 'images/test.jpg' %}">
+    <img class="image" src="{% static 'images/test.jpg' %}" />
   </div>
   <div class="flex-item flex-column">
     <p class="text text-large">
-      <strong>Name:</strong> Tinotenda Tsomondo<br>
-      <strong>Home Location:</strong> Zimbabwe<br>
-      <strong>Computing Interests:</strong> Phasellus viverra nulla<br>
-      <strong>Website Individual Contributions:</strong> Phasellus viverra nulla<br>
+      <strong>Name:</strong> Tinotenda Tsomondo<br />
+      <strong>Home Location:</strong> Zimbabwe<br />
+      <strong>Computing Interests:</strong> Phasellus viverra nulla<br />
+      <strong>Website Individual Contributions:</strong> Phasellus viverra
+      nulla<br />
     </p>
   </div>
 </div>
-</div>
-</div>
-</div>
-<br><br><br>
-<footer class="footer">
-  <div class="container">
-      <div class="row">
-          <div class="footer-col">
-              <h4 class="compony">tatu <br><hr></h4>
-              <ul>
-                  <li><a href="{% url 'home' %}">home</a></li>
-                  <li><a href="{% url 'about' %}">about</a></li>
-                  <li><a href="{% url 'posts' %}">posts</a></li>
-                  <li><a href="{% url 'authors' %}">authors</a></li>
-                  <li><a href="{% url 'contact' %}">contact</a></li>
-              </ul>
-          </div>
-          <div class="footer-col">
-              <h4>posts <br><hr></h4>
-              <ul>
-                  <li><a href="{% url 'background' %}">our background</a></li>
-                  <li><a href="{% url 'alu' %}">ALU experience</a></li>
-                  <li><a href="{% url 'mauritius' %}">mauritius experience</a></li>
-                  <li><a href="{% url 'social' %}">social life</a></li>
-                  <li><a href="{% url 'career' %}">future ideas and career</a></li>
-                  <li><a href="{% url 'pictures' %}">pictures zone</a></li>
-              </ul>
-          </div>
-          <div class="footer-col">
-              <h4>follow us <br><hr></h4>
-              <div class="social-links">
-                  <a href="https://www.github.com/"><i class="fa fa-github"></i></a>
-                  <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
-                  <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-              </div>
-          </div>
-      </div>
-  </div>
-</footer>
 
 {%endblock%}

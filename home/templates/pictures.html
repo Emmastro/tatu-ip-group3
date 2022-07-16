@@ -1,75 +1,41 @@
-{%include "base.html"%}
-
-{%block content%}
-{% load static %}
+{%extends "base.html"%} {%block content%} {% load static %}
 
 <div class="flex-row">
   <div class="flex-item flex-column">
     <h2 class="add-top-margin">Pictures Zone</h2>
-    <hr>
+    <hr />
     <p class="text text-large">
-      This page is an additional feature that contains a gallery of other pictures related to Group Three.
+      This page is an additional feature that contains a gallery of other
+      pictures related to Group Three.
     </p>
   </div>
 </div>
-<br>
+<br />
 <div class="gallery">
-  <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
   </a>
-  <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
   </a>
-  <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
   </a>
-  <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
   </a>
-  <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
   </a>
-  <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
   </a>
-  <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
   </a>
-  <a href="javascript:void(0)" class="flex-column"><img src="{% static 'images/test.jpg' %}">
+  <a href="javascript:void(0)" class="flex-column"
+    ><img src="{% static 'images/test.jpg' %}" />
   </a>
 </div>
-</div>
-</div>
-</div>
-<br><br><br>
-<footer class="footer">
-  <div class="container">
-      <div class="row">
-          <div class="footer-col">
-              <h4 class="compony">tatu <br><hr></h4>
-              <ul>
-                  <li><a href="{% url 'home' %}">home</a></li>
-                  <li><a href="{% url 'about' %}">about</a></li>
-                  <li><a href="{% url 'posts' %}">posts</a></li>
-                  <li><a href="{% url 'authors' %}">authors</a></li>
-                  <li><a href="{% url 'contact' %}">contact</a></li>
-              </ul>
-          </div>
-          <div class="footer-col">
-              <h4>posts <br><hr></h4>
-              <ul>
-                  <li><a href="{% url 'background' %}">our background</a></li>
-                  <li><a href="{% url 'alu' %}">ALU experience</a></li>
-                  <li><a href="{% url 'mauritius' %}">mauritius experience</a></li>
-                  <li><a href="{% url 'social' %}">social life</a></li>
-                  <li><a href="{% url 'career' %}">future ideas and career</a></li>
-                  <li><a href="{% url 'pictures' %}">pictures zone</a></li>
-              </ul>
-          </div>
-          <div class="footer-col">
-              <h4>follow us <br><hr></h4>
-              <div class="social-links">
-                  <a href="https://www.github.com/"><i class="fa fa-github"></i></a>
-                  <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
-                  <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-                  <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
-              </div>
-          </div>
-      </div>
-  </div>
-</footer>
 
 {%endblock%}
