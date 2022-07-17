@@ -1,5 +1,16 @@
 {%extends "base.html"%}
 
 {%block content%}
-contact form
+
+<h1 class="contactus">CONTACT US</h1>
+<p class="contactusmap"><a class="contactuslink" href="https://goo.gl/maps/JXN8hHQTPQEdSNRX7" target="_blank">African
+        Leadership College,<br>
+        Powder Mill Rd,<br>
+        Pamplemousses, 21001<br>
+        Mauritius<br><br></a></p>
+
+<a href="{% url 'comments' %}">
+    <button type="submit" class="button1" id="contactform">Leave A Comment  <span class="arrow">&#x3E</span></button>
+</a>
+
 {%endblock%}
