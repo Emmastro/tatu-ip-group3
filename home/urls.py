@@ -13,5 +13,6 @@ urlpatterns = [
         path('mauritius/', views.mauritius, name='mauritius'),
         path('social/', views.social, name='social'),
         path('career/', views.career, name='career'),
-        path('pictures/', views.pictures, name='pictures')	
+        path('pictures/', views.pictures, name='pictures'),
+        path('comments/', views.comments, name='comments')	
 ]

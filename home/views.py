@@ -34,4 +34,7 @@ def career(request):
     return render(request, 'career.html')
     
 def pictures(request):
-    return render(request, 'pictures.html')   
+    return render(request, 'pictures.html')
+
+def comments(request):
+    return render(request, 'comments.html')
