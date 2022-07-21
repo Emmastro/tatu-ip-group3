@@ -38,7 +38,7 @@
  }
 
  h2 {
-   font-size: 24px;
+   font-size: 40px;
    margin: 10px 0 0 0;
    padding: 0;
    font-weight: bold;
@@ -264,7 +264,7 @@
  }
 
  .badge-text {
-   font-size: 29px;
+   font-size: 40px;
    font-weight: 700;
    color: #1DB954 !important;
  }
@@ -492,7 +492,7 @@
  }
 
  .text-large {
-   font-size: 20px;
+   font-size: 30px;
  }
 
  .text-small {
@@ -591,11 +591,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: flex-start;
-   align-items: center;
-   align-content: stretch;
-   box-sizing: border-box;
    width: 100%;
-   padding: 0 10px;
  }
 
  .gallery a {
@@ -614,13 +610,9 @@
 
  .gallery a>img,
  .gallery a>video {
-   border-radius: 2px;
+   border-radius: 0px;
    width: 100%;
-   background-image: url(../img/loading.gif);
-   background-repeat: no-repeat;
-   background-size: 30px 30px;
-   background-position: center;
-   min-height: 50px;
+   height: auto;
  }
 
  .gallery a>div {
@@ -1039,3 +1031,21 @@
    }
  }
 
+#beach {
+  max-width: 100%;
+  height: auto;
+}
+
+.images {
+  border-radius: 40%;
+  width: 400px;
+  height: 50%;
+  margin: 15px 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+}
